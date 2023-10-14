@@ -29,30 +29,23 @@ This project is a simple audio player implemented in C++ using the FMOD library.
 ### Prerequisites
 Before you can run this audio player, you need to have the FMOD library installed and properly configured in your development environment. You can download FMOD from the official FMOD website and follow the installation instructions provided in the documentation.
 
+Get FMOD here: https://www.fmod.com/
+
 ### How to Use
 1. Clone the Repository
-   
-Clone this repository to your local machine using Git:
+   Clone this repository to your local machine using Git: `git clone https://github.com/your-username/fmod-audio-player.git`
 
-`git clone https://github.com/your-username/fmod-audio-player.git`
+2. Build the Project
+   Compile the C++ source files using a C++ compiler (e.g., g++, Visual Studio, Xcode). Make sure to link your project with the FMOD library to resolve the dependencies.
 
-3. Build the Project
-   
-Compile the C++ source files using a C++ compiler (e.g., g++, Visual Studio, Xcode). Make sure to link your project with the FMOD library to resolve the dependencies.
-
-Example (on Unix-based systems using g++):
-
-`g++ -o audio_player audio_player.cpp main.cpp -lfmod`
+Example (on Unix-based systems using g++): `g++ -o audio_player audio_player.cpp main.cpp -lfmod`
 
 3. Run the Audio Player
 
-Run the compiled executable:
-
-`./audio_player`
+4. Run the compiled executable: `./audio_player`
 
 5. Enjoy Your Music
-   
-The audio player will load and play the audio files specified in the playlist array in the main.cpp file. You can customize the playlist by modifying the paths to your desired audio files.
+   The audio player will load and play the audio files specified in the playlist array in the main.cpp file. You can customize the playlist by modifying the paths to your desired audio files.
 
 ### Class Overview
 AudioPlayer Class
